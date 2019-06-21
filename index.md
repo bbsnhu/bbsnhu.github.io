@@ -1,5 +1,5 @@
 # Welcome to BBSNHU's CS499 Capstone Page
-
+### [Link to project](https://github.com/bbsnhu/bbsnhu.github.io/tree/master/Final) folder on GitHub.
 ## Reflection
 ## Initial Artifacts
 ### Software Design and Engineering
