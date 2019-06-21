@@ -371,7 +371,7 @@ if __name__ == "__main__":
 ```
 
 ### Algorithms and Data Structures
-# Bubbly.py
+### Bubbly.py
 ```python
 def bubbleSort(list):
     i = len(list)
@@ -384,7 +384,7 @@ def bubbleSort(list):
 
     return list
 ```
-# Quicksort.py
+### Quicksort.py
 ```python
 def partition(list, low, high):
     i = (low-1)
@@ -406,7 +406,7 @@ def quickSort(list, low, high):
         quickSort(list, low, part-1)
         quickSort(list, part+1, high)
 ```
-# PyStack.py
+### PyStack.py
 ```python
 class PyStack():
 
@@ -431,7 +431,7 @@ class PyStack():
             print("Stack is empty.")
             return False
 ```
-# PyQueue.py
+### PyQueue.py
 ```python
 class PyQueue():
 
