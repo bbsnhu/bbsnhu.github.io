@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Welcome to BBSNHU's CS499 Capstone Page
 
-You can use the [editor on GitHub](https://github.com/bbsnhu/bbsnhu.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Reflection
+## Initial Artifacts
+### Software Design and Engineering
+- Artifact Name: Zoo Authentication System
+- Origin: Foundation in Application Development
+- Category: Transfer a project into a different language
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For this category I want to transfer this program into Python.  I also want to add protection for invalid usernames and possibly the creation of new users.  I am also thinking about using the MongoDB (cat 3) as storage for the user names instead of a local file.  Pseudocode is below:
 
-### Markdown
+```
+Function authSystemZoo():
+	DECLARE variables
+	CREATE loop for three login attempts
+		EXIT if three failed attempts
+		PROMPT user for username
+			SAVE to variable
+		PROMPT user for password
+			SAVE to variable
+		CONVERT password to MD5 hash
+			SAVE MD5 hash to variable
+		OPEN credentials.txt
+		COMPARE username and MD5 hash to credential file
+		GET user’s role
+		OPEN associated user’s role file
+		PRINT associated user’s role file contents
+			ALLOW user logout
+				LOOP to login prompt
+				ALLOW user to quit program
+```
+### Algorithms and Data Structures
+- Artifact Name: Data Structures and Algorithms Final Project
+- Origin: CS 260: Data Structures and Algorithms
+- Category: Expand complexity
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For this category I want to use search and sort of various types in Python (instead of C++) using a document handling framework to search and sort from a local document.  Here I will be using a data source file to illustrate advanced search/sort methods and capabilities.
 
-```markdown
-Syntax highlighted code block
+![alt text](http://bbsnhu.github.io/Images/Flowchart2.png "Logo Title Text 1")
 
-# Header 1
-## Header 2
-### Header 3
+### Databases
+In this category I will use MongoDB as persistent storage for my program.  Here I hope to add the functionality of adding results from previous categories as well as using the database for user management.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+CREATE Mongo Client
+CREATE DB and Collection
+CREATE index for username lookup (possibly others depending on DS and algs used.)
+	CATCH errors
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bbsnhu/bbsnhu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Finished Artifacts
+### Software Design and Engineering
+### Algorithms and Data Structures
+### Databases
