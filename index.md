@@ -49,7 +49,8 @@ CREATE index for username lookup (possibly others depending on DS and algs used.
 	CATCH errors
 ```
 
-## Finished Artifact
+## Finished Artifacts
+### Software Design and Engineering
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -367,4 +368,90 @@ def main():
 if __name__ == "__main__":
     # app.run(port="8080", debug=True)
     main()
+```
+
+### Algorithms and Data Structures
+# Bubbly.py
+```python
+def bubbleSort(list):
+    i = len(list)
+
+    for j in range(i):
+
+        for k in range(0, i-j-1):
+            if list[k] > list[k+1]:
+                list[k], list[k+1] = list[k+1], list[k]
+
+    return list
+```
+# Quicksort.py
+```python
+def partition(list, low, high):
+    i = (low-1)
+    pivot = list[high]
+    for j in range(low, high):
+        if list[j] <= pivot:
+            i = i+1
+            list[i], list[j] = list[j], list[i]
+
+    list[i+1], list[high] = list[high], list[i+1]
+    return (i+1)
+
+
+def quickSort(list, low, high):
+    if low < high:
+        part = partition(list, low, high)
+        # Recursively calls itself to continue
+        # partitioning
+        quickSort(list, low, part-1)
+        quickSort(list, part+1, high)
+```
+# PyStack.py
+```python
+class PyStack():
+
+    def __init__(self, list):
+        self.__stack = []
+        for value in list:
+            self.__stack.append(value)
+
+    def push(self, value):
+        self.__stack.append(value)
+        print(self.__stack)
+
+    def pop(self):
+        if len(self.__stack) > 0:
+            index = len(self.__stack) - 1
+            print("Pop Requested..")
+            print("Popping", self.__stack[index])
+            a = self.__stack.pop(index)
+            print(self.__stack)
+            return a
+        else:
+            print("Stack is empty.")
+            return False
+```
+# PyQueue.py
+```python
+class PyQueue():
+
+    def __init__(self, list):
+        self.__queue = []
+        for value in list:
+            self.__queue.append(value)
+
+    def enqueue(self, value):
+        print("Adding " + str(value))
+        self.__queue.append(value)
+        print(self.__queue)
+
+    def dequeue(self):
+        if len(self.__queue) > 0:
+            print("Removing " + str(self.__queue[0]))
+            a = self.__queue.pop(0)
+            print(self.__queue)
+            return a
+        else:
+            print("Queue is empty.")
+            return False
 ```
