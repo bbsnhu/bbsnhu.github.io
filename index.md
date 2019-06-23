@@ -57,7 +57,7 @@ CREATE index for username lookup (possibly others depending on DS and algs used.
 ```
 
 ## Finished Artifacts
-### Software Design and Engineering
+
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
