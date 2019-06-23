@@ -2,6 +2,10 @@
 ## **Repository:**
 ### [Link to project folder on GitHub.](https://github.com/bbsnhu/bbsnhu.github.io/tree/master/Final)
 ## Reflection
+	    Completing the coursework this term, as well as throughout the computer science program has helped me showcase my strengths, gave me the opportunity to reinforce any weaknesses, as well as try out any new abilities.
+        Previously in the computer science program, I was part of a collaboration team and worked extensively together using Slack on a shared remote repository.  We also drafted mock reports as exemplary communications for stakeholders and management.  Another very important course was the data structures and algorithms course.  This course used C++ to reinforce an explicit understanding of concepts.  Mongo and SQL were the two database technologies I experienced in my time at SNHU.  Using Python and JavaScript, as a class, we were able to communicate with remote and locally ran mongo servers, and experienced table management using Codio.
+	    The following artifacts fit together to illustrate an understanding of concepts, as well as how to implement them.  My final project is one program, with three major software development and engineering fundamentals (software engineering, data structures and algorithms, and databases.
+
 ## Initial Artifacts
 ### Software Design and Engineering
 - Artifact Name: Zoo Authentication System
@@ -372,7 +376,7 @@ if __name__ == "__main__":
 ```
 
 ### Algorithms and Data Structures
-### Bubbly.py
+### ``Bubbly.py``
 ```python
 def bubbleSort(list):
     i = len(list)
@@ -385,7 +389,7 @@ def bubbleSort(list):
 
     return list
 ```
-### Quicksort.py
+### ``Quicksort.py``
 ```python
 def partition(list, low, high):
     i = (low-1)
@@ -407,7 +411,7 @@ def quickSort(list, low, high):
         quickSort(list, low, part-1)
         quickSort(list, part+1, high)
 ```
-### PyStack.py
+### ``PyStack.py``
 ```python
 class PyStack():
 
@@ -432,7 +436,7 @@ class PyStack():
             print("Stack is empty.")
             return False
 ```
-### PyQueue.py
+### ``PyQueue.py``
 ```python
 class PyQueue():
 
