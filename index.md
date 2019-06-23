@@ -1,7 +1,7 @@
 ## Welcome to BBSNHU's CS499 Capstone Page
 ## **Repository:**
 ### [Link to project folder on GitHub.](https://github.com/bbsnhu/bbsnhu.github.io/tree/master/Final)
-## Reflection
+## Self-Assessment
 Completing the coursework this term, as well as throughout the computer science program, has helped me showcase my strengths, gave me the opportunity to reinforce any weaknesses, as well as try out any new abilities.
 
 Previously in the computer science program, I was part of a collaboration team and worked extensively together using Slack on a shared remote repository.  We also drafted mock reports as exemplary communications for stakeholders and management.  Another very important course was the data structures and algorithms course.  This course used C++ to reinforce an explicit understanding of concepts.  Mongo and SQL were the two database technologies I experienced in my time at SNHU.  Using Python and JavaScript, as a class, we were able to communicate with remote and locally ran mongo servers, and experienced table management using Codio.
