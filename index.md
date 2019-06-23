@@ -1,5 +1,5 @@
-# Welcome to BBSNHU's CS499 Capstone Page
-### [Link to project folder on GitHub.](https://github.com/bbsnhu/bbsnhu.github.io/tree/master/Final) 
+## Welcome to BBSNHU's CS499 Capstone Page
+### <p style="text-align: center;">[Link to project folder on GitHub.](https://github.com/bbsnhu/bbsnhu.github.io/tree/master/Final) </p>
 ## Reflection
 ## Initial Artifacts
 ### Software Design and Engineering
